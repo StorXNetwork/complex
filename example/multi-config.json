@@ -3,7 +3,7 @@
     "type": "Landlord",
     "opts": {
       "logLevel": 3,
-      "mongoUrl": "mongodb://localhost:27017/__storj-complex-example",
+      "mongoUrl": "mongodb://mongodbserver:27017/__storj-bridge-development",
       "mongoOpts": {},
       "amqpUrl": "amqp://localhost",
       "amqpOpts": {},
@@ -24,7 +24,7 @@
       "logLevel": 3,
       "amqpUrl": "amqp://localhost",
       "amqpOpts": {},
-      "mongoUrl": "mongodb://localhost:27017/__storj-complex-example",
+      "mongoUrl": "mongodb://mongodbserver:27017/__storj-bridge-development",
       "mongoOpts": {},
       "networkPrivateExtendedKey": "network-private-key.example",
       "networkIndex": 0,
@@ -39,7 +39,7 @@
         },
         "maxTunnels": 5,
         "seedList": [],
-        "bridgeUri": "https://api.storj.io",
+        "bridgeUri": "https://api.storx.io",
         "maxConnections": 250
       }
     }
@@ -50,7 +50,7 @@
       "logLevel": 3,
       "amqpUrl": "amqp://localhost",
       "amqpOpts": {},
-      "mongoUrl": "mongodb://localhost:27017/__storj-complex-example",
+      "mongoUrl": "mongodb://mongodbserver:27017/__storj-bridge-development",
       "mongoOpts": {},
       "networkPrivateExtendedKey": "network-private-key.example",
       "networkIndex": 1,
@@ -65,7 +65,7 @@
         },
         "maxTunnels": 5,
         "seedList": [],
-        "bridgeUri": "https://api.storj.io",
+        "bridgeUri": "https://api.storx.io",
         "maxConnections": 250
       }
     }
@@ -76,7 +76,7 @@
       "logLevel": 3,
       "amqpUrl": "amqp://localhost",
       "amqpOpts": {},
-      "mongoUrl": "mongodb://localhost:27017/__storj-complex-example",
+      "mongoUrl": "mongodb://mongodbserver:27017/__storj-bridge-development",
       "mongoOpts": {},
       "networkPrivateExtendedKey": "network-private-key.example",
       "networkIndex": 2,
@@ -91,7 +91,7 @@
         },
         "maxTunnels": 5,
         "seedList": [],
-        "bridgeUri": "https://api.storj.io",
+        "bridgeUri": "https://api.storx.io",
         "maxConnections": 250
       }
     }

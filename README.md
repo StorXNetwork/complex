@@ -1,8 +1,3 @@
-_**Notice**: Development on this repo is deprecated as we continue our v3 rearchitecture. Please see https://github.com/storj/storj for ongoing v3 development._
-
-[![Storj Complex](https://nodei.co/npm/storj-complex.png?downloads=true)](http://storj.github.io/complex)
-=========================================================================================================
-
 [![Build Status](https://img.shields.io/travis/Storj/complex.svg?style=flat-square)](https://travis-ci.org/Storj/complex)
 [![Coverage Status](https://img.shields.io/coveralls/Storj/complex.svg?style=flat-square)](https://coveralls.io/r/Storj/complex)
 [![NPM](https://img.shields.io/npm/v/storj-complex.svg?style=flat-square)](https://www.npmjs.com/package/storj-complex)
@@ -14,9 +9,14 @@ capabilities! [Complete documentation can be found here](https://storj.github.io
 Prerequisites
 -------------
 
-* [Storj Core](https://github.com/storj/core)
+* Python
+* Build essential
 * [MongoDB](https://www.mongodb.com/)
 * [RabbitMQ](https://www.rabbitmq.com)
+
+```
+sudo apt install python build-essential mongodb rabbitmq-server
+```
 
 Installation
 ------------
@@ -24,14 +24,23 @@ Installation
 ### Command Line Interface
 
 ```
-npm install -g storj-complex
+npm install -g StorXNetwork/complex
 ```
 
 ### Programmatic
 
 ```
-npm install storj-complex --save
+npm install StorXNetwork/complex --save
 ```
+
+### From Git
+
+```
+git clone https://github.com/StorXNetwork/complex
+cd complex
+npm install && npm link
+```
+
 
 Usage
 -----
