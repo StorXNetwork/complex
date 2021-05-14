@@ -4,10 +4,10 @@
       "logLevel": 3,
       "amqpUrl": "amqp://localhost",
       "amqpOpts": {},
-      "mongoUrl": "mongodb://mongodbserver:27017/__storj-bridge-development",
+      "mongoUrl": "mongodb://localhost:27017/__storj-complex-example",
       "mongoOpts": {},
       "networkPrivateExtendedKey": "network-private-key.example",
-      "networkIndex": 1,
+      "networkIndex": 0,
       "networkOpts": {
         "rpcPort": 4000,
         "rpcAddress": "127.0.0.1",
@@ -19,7 +19,7 @@
         },
         "maxTunnels": 5,
         "seedList": [],
-        "bridgeUri": "https://api.storx.io",
+        "bridgeUri": "https://api.storj.io",
         "maxConnections": 250
       }
     }
