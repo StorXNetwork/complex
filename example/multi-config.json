@@ -1,23 +1,5 @@
 [
-  {
-    "type": "Landlord",
-    "opts": {
-      "logLevel": 3,
-      "mongoUrl": "mongodb://mongodbserver:27017/__storj-bridge-development",
-      "mongoOpts": {},
-      "amqpUrl": "amqp://localhost",
-      "amqpOpts": {},
-      "serverPort": 8080,
-      "serverOpts": {
-        "certficate": null,
-        "key": null,
-        "authorization": {
-          "username": "user",
-          "password": "pass"
-        }
-      }
-    }
-  },
+
   {
     "type": "Renter",
     "opts": {
