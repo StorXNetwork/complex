@@ -16,7 +16,7 @@
       "networkIndex": 1,
       "networkOpts": {
         "rpcPort": 4000,
-        "rpcAddress": "115.187.42.175",
+        "rpcAddress": "127.0.0.1",
         "doNotTraverseNat": false,
         "tunnelServerPort": 5000,
         "tunnelGatewayRange": {
@@ -25,7 +25,7 @@
         },
         "maxTunnels": 5,
         "seedList": [],
-        "bridgeUri": "http://localhost:6382",
+        "bridgeUri": "https://api.storx.io",
         "maxConnections": 250
       }
     }
