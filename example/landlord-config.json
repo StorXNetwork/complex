@@ -2,7 +2,13 @@
   "type": "Landlord",
   "opts": {
     "mongoUrl": "mongodb://mongodbserver:27017/__storj-bridge-development",
-    "mongoOpts": {},
+    "mongoOpts": {
+      "ssl":true,
+      "replicaSet":"atlas-1im26p-shard-0",
+      "authSource":"admin",
+      "retryWrites":true,
+      "w":"majority"
+    },
     "logLevel": 3,
     "amqpUrl": "amqp://localhost",
     "amqpOpts": {},
